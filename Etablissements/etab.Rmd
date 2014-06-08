@@ -1,0 +1,20 @@
+Etablissement classés
+========================================================
+
+
+Analyse du fichier __Etablissements classés sur la CUS.csv__ qui comporte les établissements soumis à autorisation sr la CUS. Le fichier original se trouve dans le dossier __Data source__. Il a été réenregistré au format _.csv_ avec l'option "mettre les champs entre guillements" à cause des pb causés par les apostrophes.
+
+En terme de risques, la directive Seveso II fixe deux niveaux:
+- __établissements SEVESO seuil bas__
+- __AS__ Avec Servitudes, anciennement __Seveso Seuil Haut__ [INERIS](http://www.ineris.fr/aida/consultation_document/11319)
+
+```{r}
+file <- "Etablissements classés sur la CUS.csv"
+e <- read.table(file, skip=1, header=TRUE, sep=",")
+str(e)
+summary(e$Régime)
+summary(e$Régime.Seveso)
+
+```
+
+
