@@ -9,7 +9,8 @@ En terme de risques, la directive Seveso II fixe deux niveaux:
 - __AS__ Avec Servitudes, anciennement __Seveso Seuil Haut__ [INERIS](http://www.ineris.fr/aida/consultation_document/11319)
 
 ```{r}
-file <- "Etablissements classés sur la CUS.csv"
+path <- "../"
+file <- paste0(path,"Etablissements classés sur la CUS.csv")
 e <- read.table(file, skip=1, header=TRUE, sep=",")
 str(e)
 summary(e$Régime)
@@ -17,4 +18,36 @@ summary(e$Régime.Seveso)
 
 ```
 
+Pour tout le Bas-Rhin
+----------------------
+
+```{r 67}
+file <- paste0(path,"Etablissements classés 67.csv")
+e <- read.table(file, header=TRUE, sep=",")
+summary(e$Régime.Seveso)
+e[e$Régime.Seveso == "Seuil AS" | e$Régime.Seveso == "Seuil Bas",]
+
+```
+
+Risque sismique
+---------------
+
+```{r sismique}
+file <- paste0(path,"Séismes récents en Alsace.csv")
+s <- read.table(file, header=FALSE, sep=",")
+n <- c("Identifiant du séisme", "Heure UTC", "Latitude", "Longitude", "Magnitude","Type de magnitude","Profondeur (en km)", "Type de profondeur", "Catalogue", "Mode d'évaluation", "Nombre de stations utilisées", "Nombre de phases", "Gap azimuthal", "Mode d'évaluation", "Ville significative","Distance de la ville (en km)")
+names(s) <- n
+
+```
+
+Période du 9/5/2013 au 9/5/2014
+--------------------------------
+
+```{r deismes2}
+file <- paste0(path,"seismes.tsv")
+seismes <- read.table(file, header=FALSE, sep="\t")
+names(seismes) <- n
+summary(seismes$"Ville significative")
+
+```
 
