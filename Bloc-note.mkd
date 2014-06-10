@@ -18,11 +18,12 @@ Le CHU à la fois CH du secteur sanitaire 2 et ESR assume une responsabilité co
 Fichier
 -------
 
+- NB: LES NOMS DE FICHIERS AVEC ACCENTS PASSENT MAL DANS GITHUB.
 - __Etablissements classés 67.csv__ source: site de la DREAL. Entreprises classées du Bas-Rhin. Récupération fastidieuse car la base de donnée ne délivre que 20 lignes à la fois. Il me semble que dans RBloggers il y a un blog qui traite de ce problème. Date de saisie: 5 juin 2014. Il me semble que les mêmes entreprises apparaissent plusieurs fois ? Le fichier source est enregistré au format CSV avec l'option "Metttre entre uillemets toutes les cellules" et la virgule comme séparateur de champ.
 
-- __Etablissements classés sur la CUS.csv__ même source. En fait le fichier ne contient que les entreprises de Strasbourg (et non de la CUS).
+- __Etablissements classes sur la CUS.csv__ même source. En fait le fichier ne contient que les entreprises de Strasbourg (et non de la CUS).
 
-_ __Séismes récents en Alsace.csv__ et __seisme.tsv__ Fichier récupéré sur le site du RENASS avec les modalités de recherche suivantes:
+_ __Seismes recents en Alsace.csv__ et __seisme.tsv__ Fichier récupéré sur le site du RENASS avec les modalités de recherche suivantes:
 
   - date de début: 2013-06-09
   - date de fin: 2014-06-09

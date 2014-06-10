@@ -11,7 +11,7 @@ En terme de risques, la directive Seveso II fixe deux niveaux:
 
 ```r
 path <- "../"
-file <- paste0(path,"Etablissements classés sur la CUS.csv")
+file <- paste0(path,"Etablissements classes sur la CUS.csv")
 e <- read.table(file, skip=1, header=TRUE, sep=",")
 str(e)
 ```
@@ -48,7 +48,7 @@ Pour tout le Bas-Rhin
 
 
 ```r
-file <- paste0(path,"Etablissements classés 67.csv")
+file <- paste0(path,"Etablissements classes 67.csv")
 e <- read.table(file, header=TRUE, sep=",")
 summary(e$Régime.Seveso)
 ```
@@ -112,7 +112,7 @@ Risque sismique
 
 
 ```r
-file <- paste0(path,"Séismes récents en Alsace.csv")
+file <- paste0(path,"Seismes recents en Alsace.csv")
 s <- read.table(file, header=FALSE, sep=",")
 n <- c("Identifiant du séisme", "Heure UTC", "Latitude", "Longitude", "Magnitude","Type de magnitude","Profondeur (en km)", "Type de profondeur", "Catalogue", "Mode d'évaluation", "Nombre de stations utilisées", "Nombre de phases", "Gap azimuthal", "Mode d'évaluation", "Ville significative","Distance de la ville (en km)")
 names(s) <- n

@@ -191,7 +191,7 @@ hljs.initHighlightingOnLoad();
 </ul>
 
 <pre><code class="r">path &lt;- &quot;../&quot;
-file &lt;- paste0(path,&quot;Etablissements classés sur la CUS.csv&quot;)
+file &lt;- paste0(path,&quot;Etablissements classes sur la CUS.csv&quot;)
 e &lt;- read.table(file, skip=1, header=TRUE, sep=&quot;,&quot;)
 str(e)
 </code></pre>
@@ -220,7 +220,7 @@ str(e)
 
 <h2>Pour tout le Bas-Rhin</h2>
 
-<pre><code class="r">file &lt;- paste0(path,&quot;Etablissements classés 67.csv&quot;)
+<pre><code class="r">file &lt;- paste0(path,&quot;Etablissements classes 67.csv&quot;)
 e &lt;- read.table(file, header=TRUE, sep=&quot;,&quot;)
 summary(e$Régime.Seveso)
 </code></pre>
@@ -278,7 +278,7 @@ summary(e$Régime.Seveso)
 
 <h2>Risque sismique</h2>
 
-<pre><code class="r">file &lt;- paste0(path,&quot;Séismes récents en Alsace.csv&quot;)
+<pre><code class="r">file &lt;- paste0(path,&quot;Seismes recents en Alsace.csv&quot;)
 s &lt;- read.table(file, header=FALSE, sep=&quot;,&quot;)
 n &lt;- c(&quot;Identifiant du séisme&quot;, &quot;Heure UTC&quot;, &quot;Latitude&quot;, &quot;Longitude&quot;, &quot;Magnitude&quot;,&quot;Type de magnitude&quot;,&quot;Profondeur (en km)&quot;, &quot;Type de profondeur&quot;, &quot;Catalogue&quot;, &quot;Mode d&#39;évaluation&quot;, &quot;Nombre de stations utilisées&quot;, &quot;Nombre de phases&quot;, &quot;Gap azimuthal&quot;, &quot;Mode d&#39;évaluation&quot;, &quot;Ville significative&quot;,&quot;Distance de la ville (en km)&quot;)
 names(s) &lt;- n
