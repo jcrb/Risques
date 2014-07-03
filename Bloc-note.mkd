@@ -11,9 +11,12 @@ Sources:
 - carte des installation Seveso en Alsace [SEVESO](http://www.alsace.developpement-durable.gouv.fr/cartes-des-installations-seveso-a798.html)
 - liste des établissements classés sur la CUS: fichier Libre Office dans dossier perso.
 
-Strasbourg regroupe dans sa communauté urbaine près de la moitié de la population du Bas-Rhin (600.000 personnes). La ville appartient à la région du Rhin Supérieure, entité géopolitique comptant plus de 6 millions d'habitants (1% de la population européenne), regroupant l'Alsace, le Bade-Wurtemberg et les régions de Suisse du nord (Bâle, Aargau). C'est une région riche, en croissance démographique soutenue, siège des institutions européennes et d'un tissus industriel dense. Si le dynamisme démographique est lié à un taux de natalité important dans la partie française, c'est le solde migratoire qui prédomine dans les parties allemandes et Suisse.
+Strasbourg regroupe dans sa communauté urbaine près de la moitié de la population du Bas-Rhin (600.000 personnes) et la quasi-totalité des industries à risques (Sévéso suil haut). La ville appartient à la région du Rhin Supérieure, entité géopolitique comptant plus de 6 millions d'habitants (1% de la population européenne), regroupant l'Alsace, le Bade-Wurtemberg et les régions de Suisse du nord (Bâle, Aargau). C'est une région riche, en croissance démographique soutenue, siège des institutions européennes et d'un tissus industriel dense. Si le dynamisme démographique est lié à un taux de natalité important dans la partie française, c'est le solde migratoire qui prédomine dans les parties allemandes et Suisse.
+La présence des institutions européennes et d'une représentation diplomatique dense en font une cible privilégiée pour les revendications plus ou moins musclées de contestataires et pour des actions terroristes. Strasbourg est probablement la ville de France - en dehors de Paris- qui connait le plus de voyages officiels dont la couverture médicale est assurée par les HUS.
 
 Le CHU à la fois CH du secteur sanitaire 2 et ESR assume une responsabilité complexe liée à ses double mission d'hôpital de proximité et de recours pour l'ensemble de sa région voire au delà.
+
+Habituellement les risques sont divisés endeux grandes catégories: les risques internes à l'établissement et les risques extérieurs à celui-ci. Sele la seconde catégorie sera abordée dans ce document.
 
 Fichier
 -------
@@ -69,11 +72,17 @@ Le fichier récupéré est du type TSV (Tab separated value), avec les intitulé
 Risques locaux
 ==============
 
+Un __risque__ est un évènement inattendu (mais prévisible) indésirable en raison de ses conséquences humaines et/ou financières résultant de la conjonction d'un __alea__ non maîtrisé ou non maçitrisable et d'une __vulnérabilité__.
+
+Deux caractéristiques: la __gravité__ et la _fréquence__. Les risques majeurs sont caractérisés par une gravité majeure et une fréquence rare voire exeptionnelle.
+
+La fréquence est mesurée par l'analyse des évènements passés. La probabilité de survenue ets le plus souvent rétrospective.
+
 Rassemblement de foule
 ----------------------
 
     - Zenith (PMC, Stade de la Meinau)
-    - Marché de Noël (un attentat déjoué). Grande proximité du site et de l'hôpital civil).
+    - Marché de Noël (un attentat déjoué en décembre 2000). Grande proximité du site et de l'hôpital civil.
     - parc d'attraction de Rust.
     
 Institutions européennes
@@ -107,6 +116,8 @@ Chimiques
         - Lanxess (Wantzenau - CUS)
         - Rohm & Haas (Lauterbourg)
         - Dow (Herlisheim)
+    - Transport de matières dangereuses (TMD)
+        - Triage d'Hausbergen
 
 Transports
 -----------
@@ -122,12 +133,23 @@ Biologique
     - Labo P3
 
 
-Risques environnementaux
+Risques environnementaux (Naturels)
 ------------------------
 
-    - Sismique
-    - cavités en sous-sol (Schiltigheim)
+    - Sismique: une centaine de secousses sont observées tous les ans dans la région du rhin supérieur. Ce sont essentiellement des des seismes peu profonds, destructeurs à partir d'une échelle de 5 sur l'échelle de Richter.
+Toute la CUS est classée en zone Ib (sismicité faible mais règles parasismiques opposables). Bâle 18 octobre 1356, 300 morts.
+
+    - cavités en sous-sol (Schiltigheim 1994): il existe sur la CUS un réseau importrant de caves et de galeries liées au stockage des brasseries, notamment dans les secteurs Nord et Ouest de la CUS. Les localisations font l'objet d'un recensement par la CUS et le BRGM (en 2001 268 sites avaient été répertoriés dont 133 caves-abris, 38 ouvrages militaires et 36 réseaux de galeries).
     - fragilité du réseau d'eau potable
+    - Innondation: secteur Bruche (HTP) et Ill (NHC) [Plan de prévention es risques innondation](http://www.bas-rhin.gouv.fr/pprnt/fichiers/arrete_portant_prescription_du_ppri_de_la_cus.pdf). Risques pris en compte: remontée de nappe et submersion.
+[Plan de prévention des risques naturels (PPR)](http://catalogue.prim.net/143_plans-de-prevention-des-risques-naturels-ppr-risques-d-inondation-guide-methodologique.html).
+
+Risques d'innondation dans la [CUS](http://www.strasbourg.eu/vie-quotidienne/prevention-securite/risques-majeurs/risque-inondation-cus)
+
+    - feux de forêts
+    - coulées de boue
+    - mouvements de terrain
+    - tornades: accident catastrophique du parc Pourtales (juillet 2001, 13 morts, une centaine de blessés)
     
 Autres
 ------
@@ -140,4 +162,5 @@ ToDo
 
 http://www.nhlbi.nih.gov/guidelines/obesity/bmi_tbl.pdf
 
-
+ A la mi-décembre 2000, la coopération entre DST et police allemande aboutit à l'arrestation de quatre individus d'origine algérienne. Ces derniers, basés à Francfort, visaient le marché de Noël de Strasbourg, événement populaire drainant des centaines de milliers de visiteurs chaque année. Leurs cibles : le marché en lui-même, mais aussi la cathédrale Notre-Dame voire, selon certaines sources, le siège du Parlement européen. C'est le transport d'armes et de munition qui aura trahi ceux qu'on présente désormais comme de simples exécutants. Lors de leur intervention, les autorités saisiront cependant un véritable arsenal et de nombreux faux papiers. Il faudra attendre six mois pour retrouver le cerveau de l'opération : Mohammed Bensakhria, un leader du Groupe salafiste pour la prédication et le combat, sera arrêté au printemps 2001 en Espagne. Extradé en France, il a depuis écopé d'une peine de 10 ans de prison.
+[source](http://www.linternaute.com/actualite/faits-divers/attentats-rates/marche-de-strasbourg.shtml)
