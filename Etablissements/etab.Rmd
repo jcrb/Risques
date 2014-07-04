@@ -2,16 +2,19 @@ Etablissement classés
 ========================================================
 
 
-Analyse du fichier __Etablissements classés sur la CUS.csv__ qui comporte les établissements soumis à autorisation sr la CUS. Le fichier original se trouve dans le dossier __Data source__. Il a été réenregistré au format _.csv_ avec l'option "mettre les champs entre guillements" à cause des pb causés par les apostrophes.
+Analyse du fichier __Etablissements classés sur la CUS.csv__ qui comporte les établissements soumis à autorisation sr la CUS. 
+
+Le fichier original se trouve dans le dossier __Data source__. Il a été réenregistré au format _.csv_ avec l'option "mettre les champs entre guillements" à cause des pb causés par les apostrophes.
 
 En terme de risques, la directive Seveso II fixe deux niveaux:
+
 - __établissements SEVESO seuil bas__
 - __AS__ Avec Servitudes, anciennement __Seveso Seuil Haut__ [INERIS](http://www.ineris.fr/aida/consultation_document/11319)
 
 ```{r}
 path <- "../"
 file <- paste0(path,"Etablissements classes sur la CUS.csv")
-e <- read.table(file, skip=1, header=TRUE, sep=",")
+e <- read.table(file, skip=1, header=TRUE, sep=",", encoding="UTF-8")
 str(e)
 summary(e$Régime)
 summary(e$Régime.Seveso)
@@ -23,7 +26,7 @@ Pour tout le Bas-Rhin
 
 ```{r 67}
 file <- paste0(path,"Etablissements classes 67.csv")
-e <- read.table(file, header=TRUE, sep=",")
+e <- read.table(file, header=TRUE, sep=",", encoding="UTF-8")
 summary(e$Régime.Seveso)
 e[e$Régime.Seveso == "Seuil AS" | e$Régime.Seveso == "Seuil Bas",]
 
@@ -34,7 +37,7 @@ Risque sismique
 
 ```{r sismique}
 file <- paste0(path,"Seismes recents en Alsace.csv")
-s <- read.table(file, header=FALSE, sep=",")
+s <- read.table(file, header=FALSE, sep=",", encoding="UTF-8")
 n <- c("Identifiant du séisme", "Heure UTC", "Latitude", "Longitude", "Magnitude","Type de magnitude","Profondeur (en km)", "Type de profondeur", "Catalogue", "Mode d'évaluation", "Nombre de stations utilisées", "Nombre de phases", "Gap azimuthal", "Mode d'évaluation", "Ville significative","Distance de la ville (en km)")
 names(s) <- n
 
@@ -43,9 +46,9 @@ names(s) <- n
 Période du 9/5/2013 au 9/5/2014
 --------------------------------
 
-```{r deismes2}
+```{r seismes2}
 file <- paste0(path,"seismes.tsv")
-seismes <- read.table(file, header=FALSE, sep="\t")
+seismes <- read.table(file, header=FALSE, sep="\t", encoding="UTF-8")
 names(seismes) <- n
 summary(seismes$"Ville significative")
 

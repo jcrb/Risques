@@ -23,9 +23,10 @@ Définition des vulnérabilités
 
 Une vulnérabilité dépend du profil de chaque risque en terme de génération de victimes et d'impact sur l'hôpital.
 
-Chaque menace doit être analysée en fonction de sa probabilité de survenue et de l'amplitude de son impact. Par exemple le risque de tremblement de terre, évènement rare mais à fort impact sur la population et le fonctionnement de l'hôpital a un niveau de priorté plus élevé qu'un AVP, évènement fréquent mais avec peu d'impct sur la structure.
+Chaque menace doit être analysée en fonction de sa probabilité de survenue et de l'amplitude de son impact. Par exemple le risque de tremblement de terre, évènement rare mais à fort impact sur la population et le fonctionnement de l'hôpital a un niveau de priorté plus élevé qu'un AVP, évènement fréquent mais avec peu d'impact sur la structure.
 
-Chaque risque peut être caractérisé par les éléments sivants:
+Chaque risque peut être caractérisé par les éléments suivants:
+
 - localisation par rapport à l'établissement
 - historique de survenue (probabilité de survenue)
 - conséquences pour l'établissement, le personnel, la communauté, en nombre de victimes, en ressources spécifiques nécesaires.
