@@ -178,3 +178,17 @@ http://www.nhlbi.nih.gov/guidelines/obesity/bmi_tbl.pdf
 
  A la mi-décembre 2000, la coopération entre DST et police allemande aboutit à l'arrestation de quatre individus d'origine algérienne. Ces derniers, basés à Francfort, visaient le marché de Noël de Strasbourg, événement populaire drainant des centaines de milliers de visiteurs chaque année. Leurs cibles : le marché en lui-même, mais aussi la cathédrale Notre-Dame voire, selon certaines sources, le siège du Parlement européen. C'est le transport d'armes et de munition qui aura trahi ceux qu'on présente désormais comme de simples exécutants. Lors de leur intervention, les autorités saisiront cependant un véritable arsenal et de nombreux faux papiers. Il faudra attendre six mois pour retrouver le cerveau de l'opération : Mohammed Bensakhria, un leader du Groupe salafiste pour la prédication et le combat, sera arrêté au printemps 2001 en Espagne. Extradé en France, il a depuis écopé d'une peine de 10 ans de prison.
 [source](http://www.linternaute.com/actualite/faits-divers/attentats-rates/marche-de-strasbourg.shtml)
+
+[SEVESO](http://fr.wikipedia.org/wiki/Seveso) Seveso est une commune italienne d'environ 22 200 habitants située dans la province de Monza et de la Brianza, dans la région de Lombardie, dans le nord-ouest de l'Italie. Son nom vient de celui de la rivière éponyme qui traverse la commune dans le sens nord-sud.
+
+Elle est surtout connue depuis la catastrophe de Seveso, catastrophe industrielle survenue le 10 juillet 1976 et qui vit un nuage de dioxine se répandre dans les environs après l'explosion de l'usine chimique Icmesa située dans la ville voisine de Meda.
+
+Elle est attachée depuis à la directive [européenne 96/82/CE](http://fr.wikipedia.org/wiki/Directive_Seveso) qui impose notamment le recensement des établissements industriels présentant des risques importants. Les établissements sont classés « Seveso » en fonction des quantités et des types de produits dangereux qu'ils accueillent. Il existe ainsi deux seuils différents classant les établissements en « Seveso seuil bas » ou en « Seveso seuil haut ». Les établissements militaires et les dangers liés aux rayonnements ionisants (nucléaires) ne sont pas concernés par cette directive.
+
+Le calcul de dépassement de seuil se réalise par une somme pondérée des masses de produits présents dans l'établissement.
+
+    Les établissements dont le premier seuil n'est pas franchi ne sont pas concernées par la directive
+    Les établissements qui dépassent le premier seuil sont concernées par la Directive et sont classées « Seveso seuil bas ».
+    
+    Les établissements qui dépassent le second seuil sont elles classées « Seveso seuil haut » (autre dénomination équivalente : « Seveso AS », forme abrégée de « Seveso soumise à Autorisation Servitude d'utilité publique »).
+
